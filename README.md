@@ -1,9 +1,9 @@
 # cropimage
 This is a simple toolkit for cropping main body from pictures.
 
-<p align="center"><img title="crop_example" src="./assets/example.png"></p>
+<p align="center"><img title="crop_example" src="https://github.com/haofanwang/cropimage/raw/main/assets/example.png"></p>
 
-# Installation
+## Installation
 ~~~sh
 pip install cropimage
 ~~~
