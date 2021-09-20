@@ -1,4 +1,4 @@
-from .cropper import Cropper
+from .cropimage import Cropper
 
 
 __title__ = "cropimage"
