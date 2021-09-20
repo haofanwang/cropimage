@@ -1,4 +1,7 @@
 # cropimage
+
+[![PyPI version](https://badge.fury.io/py/cropimage.svg)](https://badge.fury.io/py/cropimage) 
+
 This is a simple toolkit for cropping main body from pictures. Besides of face cropping, our project supports for all kind of images.
 
 <p align="center"><img title="crop_example" src="https://github.com/haofanwang/cropimage/raw/main/assets/example.png"></p>
