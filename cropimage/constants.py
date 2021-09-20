@@ -7,8 +7,8 @@ FEATURE_DETECT_MIN_DISTANCE = 10
 FACE_DETECT_REJECT_LEVELS = 1.3
 FACE_DETECT_LEVEL_WEIGHTS = 5
 
-HAARCASCADE_PROFILEFACE = './cropimage/utils/haarcascade_profileface.xml'
-HAARCASCADE_FRONTALFACE = './cropimage/utils/haarcascade_frontalface_default.xml'
+HAARCASCADE_PROFILEFACE = 'haarcascade_profileface.xml'
+HAARCASCADE_FRONTALFACE = 'haarcascade_frontalface_default.xml'
 
 VIS = False
 

@@ -57,13 +57,13 @@ class Cropper:
     def center_from_faces(self, image):
 
         # Front face detection
-        face_cascade = cv2.CascadeClassifier(HAARCASCADE_FRONTALFACE)
+        face_cascade = cv2.CascadeClassifier(os.path.join(os.path.dirname(__file__),HAARCASCADE_FRONTALFACE))
         faces = face_cascade.detectMultiScale(image, FACE_DETECT_REJECT_LEVELS, 
                                               FACE_DETECT_LEVEL_WEIGHTS)
 
         # Profile face detection
         if len(faces) == 0:
-            face_cascade = cv2.CascadeClassifier(HAARCASCADE_PROFILEFACE)
+            face_cascade = cv2.CascadeClassifier(os.path.join(os.path.dirname(__file__),HAARCASCADE_PROFILEFACE))
             faces = face_cascade.detectMultiScale(image, FACE_DETECT_REJECT_LEVELS, 
                                                   FACE_DETECT_LEVEL_WEIGHTS)
 
