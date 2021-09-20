@@ -1,2 +1,2 @@
-# cropper
+# cropimage
 Simple toolkit for cropping core parts from pictures

@@ -1,5 +1,5 @@
 import glob
-from cropper import *
+from cropper.cropper import *
 
 
 save_dir = './res_non'
