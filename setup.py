@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
   name="cropimage",
-  version="0.0.1",
+  version="0.0.3",
   author="Haofan Wang",
   author_email="haofanwang.ai@gmail.com",
   description="A simple toolkit for detecting and cropping main body from pictures.",
