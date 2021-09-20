@@ -2,7 +2,7 @@
 
 [![PyPI version](https://badge.fury.io/py/cropimage.svg)](https://badge.fury.io/py/cropimage) 
 
-This is a simple toolkit for cropping main body from pictures. Besides of face cropping, our project supports for all kind of images.
+This is a simple toolkit for cropping main body from pictures. Different from other projects that mainly tackle face region, we extend to all kinds of images such as landscape. We support horizontal and portrait size and generate a square output.
 
 <p align="center"><img title="crop_example" src="https://github.com/haofanwang/cropimage/raw/main/assets/example.png"></p>
 
