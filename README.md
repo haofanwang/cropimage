@@ -1,5 +1,5 @@
 # cropimage
-This is a simple toolkit for cropping main body from pictures.
+This is a simple toolkit for cropping main body from pictures. Besides of face cropping, our project supports for all kind of images.
 
 <p align="center"><img title="crop_example" src="https://github.com/haofanwang/cropimage/raw/main/assets/example.png"></p>
 
@@ -15,6 +15,7 @@ from cropimage import Cropper
 cropper = Cropper()
 
 # Get a Numpy array of the cropped image
+# Set completeness to be False if you expect the 'person' to be complete rather than 'face'
 cropped_array = cropper.crop('./images/input.jpg', completeness=True, target_size=(500,500))
 
 # Save the cropped image
