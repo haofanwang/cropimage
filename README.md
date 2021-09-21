@@ -1,8 +1,8 @@
 # cropimage
 
-[![PyPI version](https://badge.fury.io/py/cropimage.svg)](https://badge.fury.io/py/cropimage) 
+[![PyPI version](https://badge.fury.io/py/cropimage.svg)](https://badge.fury.io/py/cropimage) [![Downloads](https://pepy.tech/badge/cropimage)](https://pepy.tech/project/cropimage) [![Colab](https://camo.githubusercontent.com/84f0493939e0c4de4e6dbe113251b4bfb5353e57134ffd9fcab6b8714514d4d1/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667)](https://colab.research.google.com/drive/18jqXa1V-v5FXoCcY2MVg3FC3CFcOAk63?usp=sharing)
 
-cropimage is a simple toolkit for image cropping. Different from other projects that mainly tackle face region, we extend to all kinds of images such as landscape. We support horizontal and portrait size and generate a square output.
+CropImage is a simple toolkit for image cropping. Different from other projects that mainly tackle face region, we extend to all kinds of images such as landscape. We support horizontal and portrait size and generate a square output.
 
 <p align="center"><img title="crop_example" src="https://github.com/haofanwang/cropimage/raw/main/assets/example.png"></p>
 
