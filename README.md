@@ -18,8 +18,8 @@ from cropimage import Cropper
 cropper = Cropper()
 
 # Get a Numpy array of the cropped image
-# Set completeness to be False if you expect the 'person' to be complete rather than 'face'
-# Set target_size to be a tuple (size, size), only square output is supported now,
+# Set completeness to be True if you expect the 'face' to be focused rather than 'person'
+# Set target_size to be a tuple (size, size), only square output is supported now
 result = cropper.crop('./images/input.jpg')
 
 # Save the cropped image
