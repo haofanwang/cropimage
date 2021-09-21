@@ -11,8 +11,8 @@ from .constants import *
 
 class Cropper:
     
-    def __init__(self):
-        self.DEVICE = torch.device('cpu')
+    def __init__(self, device='cpu'):
+        self.DEVICE = torch.device(device)
         self.MTCNN_MODEL = MTCNN(keep_all=False, device=self.DEVICE)
 
     '''
