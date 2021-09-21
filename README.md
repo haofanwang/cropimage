@@ -19,7 +19,7 @@ cropper = Cropper()
 
 # Get a Numpy array of the cropped image
 # Set completeness to be False if you expect the 'person' to be complete rather than 'face'
-cropped_array = cropper.crop('./images/input.jpg', completeness=True, target_size=(500,500))
+result = cropper.crop('./images/input.jpg', completeness=True, target_size=(500,500))
 
 # Save the cropped image
 cv2.imwrite('cropped.jpg', result)
