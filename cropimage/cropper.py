@@ -202,7 +202,7 @@ class Cropper:
                 left_y, right_y = cy - height//2, cy + height//2
             else:
                 cx, cy = width//2, height//2
-                left_x, right_x = cx - width//2, cy + width//2
+                left_x, right_x = cx - width//2, cx + width//2
                 left_y, right_y = cy - width//2, cy + width//2
 
         left_y, right_y,left_x, right_x = int(left_y), int(right_y), int(left_x), int(right_x)
